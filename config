@@ -101,6 +101,9 @@ chatnets = {
 
 channels = (
   { name = "#gallopsled"; chatnet = "freenode"; autojoin = "Yes"; }
+  { name = "#eggsml"; chatnet = "freenode"; autojoin = "Yes"; }
+  { name = "#diku"; chatnet = "freenode"; autojoin = "Yes"; }
+  { name = "#eggsml-maskinrum"; chatnet = "freenode"; autojoin = "Yes"; }
 );
 
 aliases = {
@@ -265,7 +268,7 @@ statusbar = {
   };
 };
 settings = {
-  core = { real_name = ""; user_name = "kris"; nick = "kris"; };
+  core = { real_name = ""; user_name = "kris"; nick = "kriztw"; };
   "fe-text" = { actlist_sort = "refnum"; };
   "fe-common/core" = {
     autocreate_windows = "yes";
