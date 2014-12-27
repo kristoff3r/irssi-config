@@ -1,1 +1,1 @@
-scriptassist.pl
+../scriptassist.pl
