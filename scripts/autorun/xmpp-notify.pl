@@ -1,0 +1,1 @@
+../xmpp-notify.pl

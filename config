@@ -30,6 +30,12 @@ servers = (
     use_ssl = "yes";
     ssl_verify = "yes";
     autoconnect = "yes";
+  },
+  {
+    address = "irc.hackint.eu";
+    port = "6667";
+    use_ssl = "no";
+    ssl_verify = "no";
   }
 );
 
@@ -100,10 +106,14 @@ chatnets = {
 };
 
 channels = (
-  { name = "#gallopsled"; chatnet = "freenode"; autojoin = "Yes"; }
-  { name = "#eggsml"; chatnet = "freenode"; autojoin = "Yes"; }
-  { name = "#diku"; chatnet = "freenode"; autojoin = "Yes"; }
-  { name = "#eggsml-maskinrum"; chatnet = "freenode"; autojoin = "Yes"; }
+  { name = "#gallopsled"; chatnet = "freenode"; autojoin = "Yes"; },
+  { name = "#eggsml"; chatnet = "freenode"; autojoin = "Yes"; },
+  { name = "#diku"; chatnet = "freenode"; autojoin = "Yes"; },
+  { 
+    name = "#eggsml-maskinrum";
+    chatnet = "freenode";
+    autojoin = "Yes";
+  }
 );
 
 aliases = {
@@ -275,4 +285,6 @@ settings = {
     print_active_channel = "no";
     window_default_level = "MSGS PUBLICS NOTICES CTCPS ACTIONS KICKS MODES TOPICS NICKS CLIENTCRAP";
   };
+  "perl/core/scripts" = { nicklist_width = "20"; };
 };
+hilights = ( { text = "kriztw"; nick = "yes"; word = "yes"; } );
