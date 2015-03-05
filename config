@@ -228,6 +228,7 @@ statusbar = {
         act = { priority = "10"; };
         more = { priority = "-1"; alignment = "right"; };
         barend = { priority = "100"; alignment = "right"; };
+        otr = { };
       };
     };
 
@@ -286,5 +287,6 @@ settings = {
     window_default_level = "MSGS PUBLICS NOTICES CTCPS ACTIONS KICKS MODES TOPICS NICKS CLIENTCRAP";
   };
   "perl/core/scripts" = { nicklist_width = "20"; };
+  "irc/core" = { cmd_queue_speed = "1msec"; };
 };
 hilights = ( { text = "kriztw"; nick = "yes"; word = "yes"; } );
